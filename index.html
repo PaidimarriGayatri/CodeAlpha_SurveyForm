@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="background-color: rgb(117, 133, 129);">
+  <header>
+  <div id="title""><h1>Survey Form</h1>
+    </header>
+
+<form id="survey-form">
+
+  <div id="description"> Let us know your Organization Survey</div><br>
+
+  <fieldset class="fieldset">
+
+    <div class="sub-group">
+      <label class="left" id="name-label" for="name"><sup style="color: red;">*</sup>First Name:</label> <br><br>
+    <input type="text" name="customer-name" class="right input-field" id="name"  required> 
+    <br>
+    <br>
+</div>
+<div class="sub-group">
+  <label class="left" id="name-label" for="name"><sup style="color: red;">*</sup>Last Name:</label> <br><br>
+<input type="text" name="customer-name" class="right input-field" id="name"  required> 
+<br>
+<br>
+</div>
+
+    <div class="sub-group">
+      <label class="left" id="email-label" for="email"><sup style="color: red;">*</sup>Email:</label> <br><br>
+    <input type="email" name="Email-address" class="right input-field"  id="email" required> 
+    <br>
+    <br>
+</div>
+
+    <div class="sub-group">
+      <label  class="left" id="number-label" for="number"> <sup style="color: red;">*</sup>Age:</label> <br> <br>
+    <input type="number" name="Age"  min="18" max="40" class="right input-field" id="number" required>
+  <br> <br>
+  </div>
+
+    <div class="sub-group">
+      <label class="left" id="handphone-label" for="handphone"><sup style="color: red;">*</sup>phone:</label> <br> <br>
+<!-- <input type="text" name="customer-name" class="right input-field" id="name" placeholder="Enter your name" required>  -->
+    <input type="text"  class="right input-field" id="handphone">
+ <br> <br>
+  </div>
+  <div class="sub-group">
+    <label class="left" for="dropdown"><sup style="color: red;">*</sup>Organization</label> <br> <br>
+    <input type="text" name="customer-name" class="right input-field" id="name"  required> 
+ <br><br>
+  </div>
+    <div class="sub-group">
+      <label class="left" for="dropdown"><sup style="color: red;">*</sup>Title</label> <br><br>
+      <input type="text" name="customer-name" class="right input-field" id="name"  required> 
+    </div> <br> <br>
+    <div class="sub-group">
+      <label class="left" id="left-radio">How long has your company been in business?</label>
+    
+       <ul style="list-style: none" class="right">
+           <li class="radio"><label><input name="radio-buttons" value="1" type="radio" class="recommendation"><1 year</label></li>
+           <li class="radio"><label><input name="radio-buttons" value="2" type="radio" class="recommendation">1-3 years</label></li>
+           <li class="radio"><label><input name="radio-buttons" value="3" type="radio" class="recommendation">4-5 years</label></li>
+           <li class="radio"><label><input name="radio-buttons" value="3" type="radio" class="recommendation">6-10 years</label></li>
+           <li class="radio"><label><input name="radio-buttons" value="3" type="radio" class="recommendation">>10years</label></li>
+       </ul>
+      </div>
+      <div class="sub-group">
+        <label class="left" for="dropdown"><sup style="color: red;">*</sup>What is your company's industry?</label> <br><br>
+        <input type="text" name="customer-name" class="right input-field" id="name"  required> 
+      </div> <br>
+      <div class="sub-group">
+        <label class="left" for="dropdown"><sup style="color: red;">*</sup>What is your primary service/product?</label> <br><br>
+        <input type="text" name="customer-name" class="right input-field" id="name" required> 
+      </div>
+     <br>
+     <div class="sub-group">
+      <label class="left" for="dropdown"><sup style="color: red;">*</sup>Who are your key stakeholder ?</label> <br><br>
+      <input type="text" name="customer-name" class="right input-field" id="name" required> 
+    </div>
+   <br>
+    <button id="submit" type="submit">Submit</button>
+  </fieldset>
+
+  
+
+</form>
+</div>
+  </body>
+</html>
